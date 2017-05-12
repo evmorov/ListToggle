@@ -45,7 +45,7 @@ function! s:QListToggle()
     silent! cclose
 
     if s:BufferCount() == buffer_count_before
-        execute "silent! botright copen " . g:lt_height
+        execute "silent! copen " . g:lt_height
     endif
 endfunction
 
